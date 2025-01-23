@@ -8,6 +8,9 @@ class V1UserProfile(BaseModel):
     display_name: Optional[str] = None
     handle: Optional[str] = None
     picture: Optional[str] = None
+    organization: Optional[str] = None
+    role: Optional[str] = None
+    actor: Optional[str] = None
     created: Optional[int] = None
     updated: Optional[int] = None
     token: Optional[str] = None

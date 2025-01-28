@@ -11,7 +11,7 @@ class V1UserProfile(BaseModel):
     organization: Optional[str] = None
     role: Optional[str] = None
     actor: Optional[str] = None
-    organizations: Optional[Dict[str, str]] = None
+    organizations: Optional[Dict[str, Dict[str, str]]] = None
     created: Optional[int] = None
     updated: Optional[int] = None
     token: Optional[str] = None

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "agentcore"
-version = "0.1.2"
+version = "0.1.3"
 description = "A core API for agentsea"
 authors = ["Patrick Barker <patrickbarkerco@gmail.com>"]
 license = "Apache 2.0"
